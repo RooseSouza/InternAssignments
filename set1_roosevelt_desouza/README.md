@@ -3,7 +3,7 @@ Blog Platform
 A simple full-stack blogging platform built with React (frontend), Node.js + Express (backend), and MySQL (database).  
 Users can create, edit, delete, and view blog posts, as well as export all posts to a CSV file.
 ----------------------------------------------------------------------------------------------------------------------
-Prerequisites
+Prerequisites:
 Make sure you have the following installed:
 
 - Node.js (v16 or higher) 
@@ -25,7 +25,7 @@ Database Setup (MySQL)
   author VARCHAR(100),
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 ----------------------------------------------------------------------------------------------------------------------
-Backend Setup
+Backend Setup:
 Go to the backend folder:
 cd backend
 
@@ -45,7 +45,7 @@ npm start
 
 Server runs on: http://localhost:5000
 ----------------------------------------------------------------------------------------------------------------------
-Frontend Setup
+Frontend Setup:
 Open another terminal and go to the frontend folder:
 cd frontend
 
@@ -79,3 +79,4 @@ Express.js
 MySQL
 dotenv
 csv-writer
+
